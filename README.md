@@ -71,4 +71,4 @@ Floxy Amede
 Elijah Arhinful
 
 Acknowledgements
-Special thanks to ALX SE for providing guidance and resources for this project.
+Special thanks to ALX SE for providing guidance and resources for this project we really appreciate.
