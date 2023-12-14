@@ -8,13 +8,13 @@
  */
 char **get_environ(info_t *info)
 {
-	if (!info->environ || info->env_changed)
+	if (!info->the_environ || info->env_changed)
 	{
-		info->environ = list_to_strings(info->env);
+		info->the_environ = list_to_strings(info->env);
 		info->env_changed = 0;
 	}
 
-	return (info->environ);
+	return (info->the_environ);
 }
 
 /**

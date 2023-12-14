@@ -85,7 +85,7 @@ typedef struct passinfo
 	list_t *env;
 	list_t *history;
 	list_t *alias;
-	char **environ;
+	char **the_environ;
 	int env_changed;
 	int status;
 
@@ -164,7 +164,7 @@ int bfree(void **);
 int interactive(info_t *);
 int is_delim(char, char *);
 int _isalpha(int);
-int _atoi(char *);
+int this_atoi(char *);
 
 /* toem_errors1.c */
 int _erratoi(char *);
